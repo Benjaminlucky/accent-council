@@ -32,6 +32,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
+  overflow-x: hidden;
 }
 
 ol, ul {
@@ -84,5 +85,14 @@ code {
   --light-orange: #F5BA2E;
   --dark-red: #E13B32;
   --light-red: #E74B4C;
+  --dark-blue: #050577;
   --white: #FFFFFF;
+  --black: #000000;
+  --gray: #F8F8F8;
+}
+
+
+/*===============GENERIC STYLES =================*/
+.black{
+  color: var(--black)
 }

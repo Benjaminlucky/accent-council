@@ -12,7 +12,7 @@
     margin-inline: auto;
     justify-content: space-between;
     align-content: baseline;
-    margin-top: 1rem;
+    padding: 1rem 0;
 }
 
 .tnW__left{
@@ -116,7 +116,7 @@ a[href='/register']:hover {
 /* ... existing styles ... */
 
 /* Media query for medium and small devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1020px)  {
     .mobile__nav{
         display: flex;
     }
@@ -132,6 +132,7 @@ a[href='/register']:hover {
       position: absolute;
       top: 100px; /* Adjust the top position to fit your design */
       left: 0;
+      bottom: 0;
       width: 100%;
       background-color: var(--white); /* Mobile menu background color */
       /*padding: 10px;*/
