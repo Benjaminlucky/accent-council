@@ -1,0 +1,142 @@
+.pSpeaker__section{
+    width: var(--fullscreen-width);
+    display: flex;
+    justify-content: center;
+    background-color: var(--dark-green);
+}
+
+.pSpeaker__wrapper{
+    display: flex;
+    justify-content: center;
+    width: var(--medium-width);
+    margin-inline: auto;
+    padding: 5rem 0;
+}
+
+.pSpeaker__content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+.pSpeaker__title{
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-inline: auto;
+    padding: 1rem 0;
+}
+
+.pSpeaker__title h2 {
+    color: var(--white);
+    font-size: 3rem;
+    text-align: center;
+    font-family: Myriad Pro;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pSpeaker__title span{
+    color: var(--gray);
+    text-align: center;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+}
+
+.pSpeakers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Example grid with 3 columns */ /* Example grid with 3 rows */ /* Gap between grid items */
+    justify-items: center; /* Horizontal alignment */
+    align-items: center; /* Vertical alignment */
+}
+
+.speaker{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    gap: .5rem;
+}
+
+.speaker h2{
+    color: var(--gray);
+    font-family: Myriad Pro;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.speaker p {
+    max-width: 90%;
+    color: var(--dark-orange);
+    text-align: center;
+    line-height: 1.4;
+}
+
+
+  /* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .pSpeaker__wrapper{
+        display: flex;
+        justify-content: center;
+        width: var(--small-width);
+        margin-inline: auto;
+        padding: 2rem 0;
+    }
+
+    .pSpeakers{
+        grid-template-columns: repeat(2, 1fr); /* Example grid with 3 columns */ /* Example grid with 3 rows */ /* Gap between grid items */
+        row-gap: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .pSpeaker__title{
+        max-width: 90%;
+        padding: 3rem 0;
+    }
+    
+    .pSpeaker__title h2 {
+        color: var(--white);
+        font-size: 2rem;
+    }
+    
+    .pSpeaker__title span{
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+  
+@media screen and (max-width: 480px) {
+    .pSpeaker__wrapper{
+        display: flex;
+        justify-content: center;
+        width: var(--small-width);
+        margin-inline: auto;
+        padding: 1rem 0;
+    }
+
+    .pSpeakers{
+        grid-template-columns: 1fr; /* Example grid with 3 columns */ /* Example grid with 3 rows */ /* Gap between grid items */
+        row-gap: 2rem;
+    }
+
+    .pSpeaker__title{
+        max-width: 90%;
+        padding: 3rem 0;
+    }
+    
+    .pSpeaker__title h2 {
+        color: var(--white);
+        font-size: 1.5rem;
+    }
+    
+    .pSpeaker__title span{
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+  

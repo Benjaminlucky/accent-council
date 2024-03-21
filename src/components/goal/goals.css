@@ -1,0 +1,117 @@
+.goals__section{
+    width: var(--fullscreen-width);
+    display: flex;
+    justify-content: center;
+    background-color: var(--white);
+}
+
+.goals__wrapper{
+    width: var(--medium-width);
+    display: flex;
+    margin-inline: auto;
+}
+
+.goals__content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5rem 0;
+}
+
+.goals__title{
+    display: flex;
+    flex-direction: column;
+    max-width: 70%;
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.goals__title h2{
+    display: flex;
+    font-family: elephant;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.goals__title span{
+    padding: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: normal;
+}
+
+.goal {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust column width as needed */
+    column-gap: 1.2rem;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.goal h2{
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: .5rem;
+}
+
+.goal p{
+    text-align: center;
+    font-weight: normal;
+    line-height: 1.3;
+    font-size: 1.1rem;
+    padding: .5rem;
+    text-transform: capitalize;
+}
+
+.box {
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.boxStyle{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+
+  /* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .goal {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjust column width as needed */
+    }
+    .goals__title{
+        max-width: 100%;
+    }
+
+    .goals__title h2{
+        font-size: 2rem;
+    }
+
+    .goals__title span{
+        font-size: .956rem;
+    }
+}
+  
+@media screen and (max-width: 480px) {
+    .goal {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust column width as needed */
+    }
+
+    .goals__title{
+        max-width: 100%;
+    }
+
+    .goals__title h2{
+        font-size: 1.7rem;
+    }
+
+    .goals__title span{
+        font-size: .956rem;
+    }
+}
+  

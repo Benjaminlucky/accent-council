@@ -7,6 +7,8 @@ export const menuLinks = [
     { path: '/contact', label: 'Contact' },
     { path: '/register', label: 'Register'}
 ];
+
+
   
 export const speakersList = [
   {
@@ -24,7 +26,7 @@ export const speakersList = [
   {
     image: '../assets/profAdebayo.png',
     name: 'Prof. Abiodun Adebayo',
-    title: 'Conference Convener',
+    title: 'Vice-Chancellor Covenant University',
     bio: 'elected member of the governing board of the Association of African Universities (AAU). He is also a member of council member and trustee of the Association of Commonwealth Universities.'
   },
   {
@@ -64,3 +66,76 @@ export const speakersList = [
     bio: 'he has traversed various State Government MDAs such as Eti-Osa Zonal Office of TESCOM, Education District Offices and the Lagos State Technical & Vocational Education Board (LASTVEB), where he served as Director.',
   }
 ]
+
+export const principalSpeakers = [
+  {
+    image: '../assets/patUtomi.png',
+    name: 'Prof. Pat Utomi',
+    desc: 'Founder, Centre for Value in Leadership'
+  },
+  {
+    image: '../assets/ezekwesili.png',
+    name: 'Dr. Obi Ezekwesili',
+    desc: 'Former Minister of Education & Director School of Leadership and Governance',
+  },
+  {
+    image: '../assets/elumelu.png',
+    name: 'Mr. Tony Elumemlu (CFR)',
+    desc: 'Group Chairman UBA Group & Heirs Alliance',
+  },
+  {
+    image: '../assets/FunshoDoherty.png',
+    name: 'Mr. Funsho Doherty',
+    desc: 'APC Governorship Candidate Lagos'
+  }
+]
+
+
+export const goals = [
+  {
+      title: 'Empowering',
+      description: 'African communities through the engagement of divine education and character capacity development.',
+      background: ['#050577', '#0D0DB4']
+  },
+  {
+      title: 'Promoting',
+      description: 'innovative teaching methodologies that cater to diverse learning needs.',
+      background: ['#FC9401', '#F5BA2E']
+  },
+  {
+      title: 'Advancing',
+      description: 'inclusive educational policies to address national development barriers.',
+      background: ['#050577', '#0D0DB4']
+  },
+  {
+      title: 'Cultivating',
+      description: 'a culture of lifelong learning and continuous improvement for share responsibility for national development.',
+      background: ['#FC9401', '#F5BA2E']
+  },
+  {
+      title: 'Encouraging',
+      description: 'partnerships between educational institutions, parents, students, businesses, and community organizations to drive socioeconomic growth.',
+      background: ['#00ff00', '#007f00']
+  },
+  {
+      title: 'Highlighting',
+      description: 'the achievements and contributions of Africans in various fields to inspire the next generation.',
+      background: ['#FC9401', '#F5BA2E']
+  },
+  {
+      title: 'Addressing challenges',
+      description: 'such as access to quality education,  access to finance, brain drain, social media dangers, digital literacy, and the new gender identity misperception.',
+      background: ['#00ff00', '#007f00']
+  },
+  {
+      title: 'Providing a platform',
+      description: 'for networking, knowledge exchange, and resource sharing among stakeholders.',
+      background: ['#00ff00', '#007f00']
+  },
+  {
+      title: 'Advocating for investment',
+      description: 'in education infrastructure and resources.',
+      background: ['#050577', '#0D0DB4']
+  }
+
+];
